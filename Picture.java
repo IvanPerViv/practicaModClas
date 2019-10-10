@@ -66,7 +66,16 @@ public class Picture
         
         
     }
-
+    
+    public void atardecer()
+    {   
+        sun.changeColor("red");
+        sun.slowMoveVertical(80);
+                
+                     
+    }
+    
+    
     /**
      * Change this picture to black/white display
      */
